@@ -1,0 +1,10 @@
+#BannerContainer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background: #13171a;
+    gap: 10px;
+}
