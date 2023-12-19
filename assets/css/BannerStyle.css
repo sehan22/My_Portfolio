@@ -8,3 +8,17 @@
     background: #13171a;
     gap: 10px;
 }
+
+#txtHiThere {
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+#txtHiThere{
+    -webkit-text-stroke: 2px white; /* Adjust 'black' to the desired color */
+    color: black;
+}
