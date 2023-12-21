@@ -35,13 +35,23 @@
     line-height: normal;
 }
 
+#myName {
+    color: #c2c2c2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 12px;
+    line-height: normal;
+}
+
 #myDescription {
     color: #F8F9FA;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 30px;
     width: 35vw;
     margin-top: 20px;
 }
@@ -65,7 +75,18 @@
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 400;
+    transition: 0.3s;
+    cursor: pointer;
 }
+
+#btnHireMe:hover {
+    background: #e5e5e5;
+}
+
+#btnHireMe:active {
+    background: #F8F9FA;
+}
+
 #btnDownloadResume {
     position: relative;
     overflow: hidden;
@@ -78,22 +99,16 @@
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 400;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#btnDownloadResume:hover {
+    background: #32393f;
 }
 
 #btnDownloadResume:active {
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-    background: rgba(248, 249, 250, 0.5);
-    transform: scale(0);
-    animation: ripple 1.6s linear;
-}
-
-@keyframes ripple {
-    to {
-        transform: scale(4);
-        opacity: 0;
-    }
+    background: #212529;
 }
 
 #divStyle1 {
@@ -117,4 +132,34 @@
     gap: 15px;
 }
 
+@media all and (max-width: 1440px) and (min-width: 1025px) {
+    #myDescription {
+        width: 45vw;
+    }
+
+    #BannerContainer {
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+        gap: 30px;
+    }
+}
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+    #BannerContainer {
+        padding-top: 18vh;
+        padding-bottom: 18vh;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #myDescription {
+        width: 60vw;
+    }
+
+    #myImg {
+        width: 380px;
+        display: none;
+    }
+}
 
