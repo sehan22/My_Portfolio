@@ -9,6 +9,10 @@
     gap: 10px;
 }
 
+#myImg {
+    width: 400px;
+}
+
 #txtHiThere {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
@@ -70,3 +74,17 @@
     font-size: 15px;
     font-weight: 400;
 }
+
+#divStyle1 {
+    width: 2px;
+    height: 48px;
+    background: linear-gradient(0deg, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+}
+
+#divStyle2 {
+    width: 2px;
+    height: 48px;
+    background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+}
+
+
