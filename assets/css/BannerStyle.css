@@ -4,13 +4,16 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 80vh;
-    background: #212529;
-    gap: 10px;
+    padding-top: 18vh;
+    padding-bottom: 18vh;
+    gap: 60px;
+    background: url("../images/banner/banner background.png") no-repeat center center fixed;
+    background-size: cover;
+
 }
 
 #myImg {
-    width: 400px;
+    width: 430px;
 }
 
 #txtHiThere {
@@ -44,9 +47,9 @@
 }
 
 #hrLine {
-    margin-top: 30px;
+    margin-top: 50px;
     width: 80%;
-    opacity: 50%;
+    opacity: 30%;
 }
 
 #btnGroup {
@@ -64,6 +67,8 @@
     font-weight: 400;
 }
 #btnDownloadResume {
+    position: relative;
+    overflow: hidden;
     padding: 15px 25px;
     margin-left: 5px;
     border-radius: 36px;
@@ -75,16 +80,41 @@
     font-weight: 400;
 }
 
+#btnDownloadResume:active {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(248, 249, 250, 0.5);
+    transform: scale(0);
+    animation: ripple 1.6s linear;
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
 #divStyle1 {
-    width: 2px;
-    height: 48px;
+    width: 3px;
+    height: 88px;
     background: linear-gradient(0deg, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
 }
 
 #divStyle2 {
-    width: 2px;
-    height: 48px;
+    width: 3px;
+    height: 88px;
     background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+}
+
+#socialMediaIconsList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 

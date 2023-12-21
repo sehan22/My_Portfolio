@@ -9,7 +9,9 @@
     align-items: center;
     width: 100vw;
     height: 50px;
-    background: #212529;
+    background: transparent;
+    position: fixed;
+    top: 0;
 }
 
 .headerContainer > nav > ul > li {
