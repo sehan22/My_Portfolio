@@ -193,3 +193,26 @@
     }
 }
 
+@media all and (max-width: 768px) and (min-width: 426px) {
+    #myImg {
+        display: none;
+    }
+
+    #txtHiThere {
+        font-size: 30px;
+    }
+
+    #myRole {
+        font-size: 50px;
+    }
+
+    #myName {
+        font-size: 35px;
+    }
+
+    #myDescription {
+        font-size: 14px;
+        width: 65vw;
+    }
+}
+
