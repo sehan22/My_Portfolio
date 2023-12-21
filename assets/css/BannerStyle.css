@@ -130,6 +130,15 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+    transition: 1s;
+}
+
+#socialMediaIconsList > li > svg {
+    transition: 0.3s;
+}
+
+#socialMediaIconsList > li > svg:hover {
+    transform: scale(1.2);
 }
 
 @media all and (max-width: 1440px) and (min-width: 1025px) {
@@ -148,7 +157,7 @@
     #BannerContainer {
         padding-top: 18vh;
         padding-bottom: 18vh;
-        gap: 40px;
+        gap: 10px;
         justify-content: center;
         align-items: center;
     }
@@ -158,8 +167,29 @@
     }
 
     #myImg {
-        width: 380px;
-        display: none;
+        margin-left: -20px;
+        width: 360px;
+    }
+
+    #myInfoDiv {
+        margin-left: 10px;
+    }
+
+    #txtHiThere {
+        font-size: 30px;
+    }
+
+    #myRole {
+        font-size: 50px;
+    }
+
+    #myName {
+        font-size: 35px;
+    }
+
+    #myDescription {
+        font-size: 14px;
+        width: 45vw;
     }
 }
 
