@@ -218,8 +218,8 @@
 
 @media all and (max-width: 425px) and (min-width: 376px) {
     #BannerContainer {
-        padding-top: 18vh;
-        padding-bottom: 18vh;
+        padding-top: 12vh;
+        padding-bottom: 12vh;
         justify-content: center;
         align-items: center;
     }
@@ -265,6 +265,21 @@
 }
 
 @media all and (max-width: 375px) and (min-width: 321px) {
+    #BannerContainer {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #myInfoDiv {
+        margin-left: 30px;
+    }
+
+    #lnkSocialMediaIconsList {
+        display: none;
+    }
+
     #myImg {
         display: none;
     }
@@ -283,6 +298,64 @@
 
     #myDescription {
         font-size: 14px;
-        width: 65vw;
+        width: 85vw;
+    }
+
+    #btnGroup {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #btnDownloadResume {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 320px) {
+    #BannerContainer {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #myInfoDiv {
+        margin-left: 40px;
+    }
+
+    #lnkSocialMediaIconsList {
+        display: none;
+    }
+
+    #myImg {
+        display: none;
+    }
+
+    #txtHiThere {
+        font-size: 30px;
+    }
+
+    #myRole {
+        font-size: 50px;
+    }
+
+    #myName {
+        font-size: 35px;
+    }
+
+    #myDescription {
+        font-size: 14px;
+        width: 85vw;
+    }
+
+    #btnGroup {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #btnDownloadResume {
+        margin-top: 5px;
+        margin-left: 0;
     }
 }
