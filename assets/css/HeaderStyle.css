@@ -9,7 +9,7 @@
     align-items: center;
     width: 100vw;
     height: 50px;
-    background: #FFF;
+    background: #212529;
 }
 
 .headerContainer > nav > ul > li {
@@ -34,7 +34,7 @@
 
 #lightThemeMode {
     color: white;
-    background-color: black;
+    background-color: #13171a;
     padding: 5px 15px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
