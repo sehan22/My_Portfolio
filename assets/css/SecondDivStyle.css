@@ -1,0 +1,31 @@
+#secDivMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+#secDivContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 10px;
+    padding: 10px;
+    background: #c2c2c2;
+}
+
+#secDivContainerIcon1 {
+    width: 500px;
+    background: darkgreen;
+}
+
+#secDivContainerIcon2 {
+    width: 500px;
+    background: darkgreen;
+    margin: auto;
+}
+
+#secDivContainerIcon1 > img {
+    object-fit: cover;
+    width: 100%;
+}
