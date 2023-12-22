@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 18vh;
-    padding-bottom: 18vh;
+    padding-top: 206px;
+    padding-bottom: 206px;
     gap: 60px;
     background: url("../images/banner/banner background.png") no-repeat center center fixed;
     background-size: cover;
@@ -155,16 +155,16 @@
     }
 
     #BannerContainer {
-        padding-top: 15vh;
-        padding-bottom: 15vh;
+        padding-top: 162px;
+        padding-bottom: 162px;
         gap: 30px;
     }
 }
 
 @media all and (max-width: 1024px) and (min-width: 769px) {
     #BannerContainer {
-        padding-top: 18vh;
-        padding-bottom: 18vh;
+        padding-top: 200px;
+        padding-bottom: 200px;
         gap: 10px;
         justify-content: center;
         align-items: center;
@@ -202,6 +202,14 @@
 }
 
 @media all and (max-width: 768px) and (min-width: 426px) {
+    #BannerContainer {
+        padding-top: 207px;
+        padding-bottom: 207px;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
     #myImg {
         display: none;
     }
@@ -226,10 +234,8 @@
 
 @media all and (max-width: 425px) and (min-width: 376px) {
     #BannerContainer {
-        padding-top: 12vh;
-        padding-bottom: 12vh;
-        justify-content: center;
-        align-items: center;
+        padding: 0;
+        height: 100vh;
     }
 
     #myInfoDiv {
@@ -274,10 +280,8 @@
 
 @media all and (max-width: 375px) and (min-width: 321px) {
     #BannerContainer {
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-        justify-content: center;
-        align-items: center;
+        padding: 0;
+        height: 100vh;
     }
 
     #myInfoDiv {
@@ -322,10 +326,8 @@
 
 @media all and (max-width: 320px) {
     #BannerContainer {
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-        justify-content: center;
-        align-items: center;
+        padding: 0;
+        height: 100vh;
     }
 
     #myInfoDiv {

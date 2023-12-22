@@ -127,6 +127,7 @@
 
     <!--first div-->
     <div id="firDivMainContainer">
+
         <div id="firstDivDescriptionBox">
             <h6>Explain what I do</h6>
             <h1>What I Do</h1>
@@ -197,8 +198,30 @@
 
 <!--Footer-->
 <footer></footer>
-
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script src="assets/js/Header.js"></script>
 <script src="assets/js/Banner.js"></script>
+<script>
+
+
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            var scrollPosition = $(window).scrollTop();
+
+            // Adjust the threshold as needed
+            if (scrollPosition > 50) {
+                $('.headerContainer').css({
+                    'background-color': '#212529',
+                    'transition': '0.3s'
+                });
+            } else {
+                $('.headerContainer').css({
+                    'background-color': 'transparent',
+                    'backdrop-filter': 'none'
+                });
+            }
+        });
+    });
+</script>
 </body>
 </html>
