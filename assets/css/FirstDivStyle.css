@@ -1,0 +1,47 @@
+#firDivMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+#firDivContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 20px;
+}
+
+#firDivContainer > div:nth-child(2),
+#firDivContainer > div:nth-child(4),
+#firDivContainer > div:nth-child(6) {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.gridItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.gridItem > h3 {
+    margin-top: 10px;
+}
+
+.gridItem > p {
+    width: 90%;
+    color: gray;
+}
+
+.gridItem:hover {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
