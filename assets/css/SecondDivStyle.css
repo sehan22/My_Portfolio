@@ -9,23 +9,23 @@
 #secDivContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px 10px;
+    gap: 5px;
     padding: 10px;
-    background: #c2c2c2;
 }
 
 #secDivContainerIcon1 {
-    width: 500px;
-    background: darkgreen;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #secDivContainerIcon2 {
-    width: 500px;
-    background: darkgreen;
+    width: 600px;
     margin: auto;
 }
 
 #secDivContainerIcon1 > img {
     object-fit: cover;
-    width: 100%;
+    width: 80%;
 }
