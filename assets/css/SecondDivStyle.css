@@ -4,6 +4,9 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #secDivContainer {
@@ -28,4 +31,113 @@
 #secDivContainerIcon1 > img {
     object-fit: cover;
     width: 80%;
+    opacity: 10%;
+}
+
+#txtTopicDetails {
+    font-size: 12px;
+    color: gray;
+    margin-left: 50px;
+}
+
+#txtAboutMe {
+    margin-top: -10px;
+    font-size: 60px;
+}
+
+#txtWorkEx {
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    margin-top: 5px;
+}
+
+#txtWorkExDescription {
+    font-size: 16px;
+    color: #32393f;
+    margin-top: 2px;
+}
+
+#listMyExperience {
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+#listMyExperience > li {
+    padding: 8px;
+}
+
+#listMyExperience > li > img,
+#listMyExperience > li > h5 {
+    display: inline-block;
+}
+
+#listMyExperience > li > img {
+    margin: -2.5px;
+}
+
+#listMyExperience > li > h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#listMyExperience > li > h6 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 18px;
+}
+
+#txtContactInfo {
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    margin-top: 15px;
+}
+
+#txtContactDescription {
+    font-size: 16px;
+    color: #32393f;
+    margin-top: 2px;
+}
+
+.txtContactDetails {
+    font-size: 16px;
+    color: #32393f;
+    margin-top: 5px;
+}
+
+#socialIconsListAndButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 15px;
+}
+
+#listSocialMedia {
+    list-style: none;
+}
+
+#listSocialMedia > li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#btnDownloadCV {
+    margin-left: 10px;
+    padding: 15px 25px;
+    border-radius: 36px;
+    background: #212529;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#btnDownloadCV:hover {
+    background: #e5e5e5;
 }
