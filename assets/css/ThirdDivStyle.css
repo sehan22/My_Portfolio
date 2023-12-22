@@ -1,0 +1,63 @@
+#thirdDivMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#thirdDivContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+    gap: 20px 20px;
+}
+
+.thirdDivContainerItem {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.thirdDivContainerItemDetails {
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thirdDivContainerItemDetails > p {
+    /*margin-top: -50px;*/
+}
+
+.thirdDivContainerItemDetails > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.thirdDivContainerItemDetails > button {
+    padding: 15px 25px;
+    width: 95%;
+    border-radius: 8px;
+    background: #212529;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
