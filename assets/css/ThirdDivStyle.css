@@ -1,10 +1,33 @@
 #thirdDivMainContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     padding-top: 120px;
     padding-bottom: 120px;
+    gap: 30px;
+    font-family: 'Roboto', sans-serif;
+    background: purple;
+}
+
+#thirdDivDescriptionContainer {
+    text-align: center;
+    background: #c2c2c2;
+}
+
+#thirdDivDescriptionContainer > h16 {
+    font-size: 12px;
+}
+
+#thirdDivDescriptionContainer > h1 {
+    margin-top: -10px;
+    font-size: 60px;
+}
+
+#thirdDivDescriptionContainer > p {
+    margin: auto;
+    width: 60%;
 }
 
 #thirdDivContainer {
@@ -12,8 +35,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 1024px;
+    width: 1440px;
     gap: 20px 20px;
+    background: #c2c2c2;
 }
 
 .thirdDivContainerItem {
