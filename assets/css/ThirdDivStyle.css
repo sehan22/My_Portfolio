@@ -8,12 +8,10 @@
     padding-bottom: 120px;
     gap: 30px;
     font-family: 'Roboto', sans-serif;
-    background: purple;
 }
 
 #thirdDivDescriptionContainer {
     text-align: center;
-    background: #c2c2c2;
 }
 
 #thirdDivDescriptionContainer > h16 {
@@ -35,9 +33,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    width: 75vw;
     gap: 20px 20px;
-    background: #c2c2c2;
+    padding: 20px 20px;
 }
 
 .thirdDivContainerItem {
@@ -84,4 +82,50 @@
     transition: 0.3s;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media all and (max-width: 425px) and (min-width: 376px) {
+    #thirdDivDescriptionContainer > p {
+        width: 80%;
+    }
+
+    #thirdDivContainer {
+        width: 280px;
+        gap: 20px 10px;
+        padding: 10px 10px;
+    }
+}
+
+@media all and (max-width: 375px) and (min-width: 321px) {
+    #thirdDivDescriptionContainer > p {
+        width: 80%;
+    }
+
+    #thirdDivContainer {
+        width: 280px;
+        gap: 20px 10px;
+        padding: 10px 10px;
+    }
+
+    .thirdDivContainerItem {
+        width: 250px;
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    #thirdDivDescriptionContainer > p {
+        width: 80%;
+    }
+
+    #thirdDivContainer {
+        width: 80vw;
+        gap: 20px 10px;
+        padding: 10px 10px;
+    }
+
+    .thirdDivContainerItem {
+        width: 250px;
+        height: 300px;
+    }
 }
