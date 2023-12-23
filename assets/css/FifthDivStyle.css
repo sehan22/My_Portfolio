@@ -77,12 +77,12 @@
     margin-top: 10px;
 }
 
-#fifthDivButtonsGroup {
+.fifthDivButtonsGroup {
     display: flex;
     margin-top: 10px;
 }
 
-#fifthDivButtonsGroup > button:nth-child(1) {
+.fifthDivButtonsGroup > button:nth-child(1) {
     padding: 15px 25px;
     border-radius: 8px;
     background: #212529;
@@ -95,7 +95,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-#fifthDivButtonsGroup > button:nth-child(2) {
+.fifthDivButtonsGroup > button:nth-child(2) {
     margin-left: 5px;
     padding: 15px 25px;
     border-radius: 8px;
