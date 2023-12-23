@@ -73,6 +73,7 @@
 }
 
 .fourthDivContainerItemContent > h3 {
+    color: dimgrey;
 }
 
 @media all and (max-width: 1024px) {
