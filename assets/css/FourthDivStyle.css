@@ -1,0 +1,140 @@
+#fourthDivMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 30px;
+}
+
+#fourthDivDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#fourthDivDescriptionContainer > h6 {
+    font-size: 12px;
+}
+
+#fourthDivDescriptionContainer > h1 {
+    margin-top: -10px;
+    font-size: 60px;
+}
+
+#fourthDivDescriptionContainer > p {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 60%;
+}
+
+#fourthDivContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    gap: 40px 20px;
+    padding: 20px 20px;
+}
+
+.fourthDivContainerItem {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    padding: 8px;
+}
+
+.fourthDivContainerItemContent {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.fourthDivContainerItemContent > img {
+    border-radius: 25px;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px 0px;
+}
+
+.fourthDivContainerItemContent > img:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 5px 0px;
+}
+
+.fourthDivContainerItemContent > h3 {
+}
+
+@media all and (max-width: 1024px) {
+    #fourthDivContainer {
+        width: 85vw;
+    }
+}
+
+@media all and (max-width: 738px) {
+    #fourthDivContainer {
+        width: 90vw;
+    }
+}
+
+@media all and (max-width: 457px) {
+    #fourthDivDescriptionContainer > p {
+        width: 80%;
+    }
+
+    #fourthDivContainer {
+        width: 90vw;
+        gap: 40px 5px;
+        padding: 20px 20px;
+    }
+
+    #fourthDivContainer {
+        width: 65vw;
+        gap: 20px 20px;
+        padding: 20px 20px;
+    }
+
+    .fourthDivContainerItem {
+        width: 100px;
+        height: 100px;
+    }
+
+    .fourthDivContainerItemContent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .fourthDivContainerItemContent > h3 {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 388px) {
+    #fourthDivContainer {
+        width: 80vw;
+        gap: 15px 15px;
+        padding: 20px 20px;
+    }
+}
+
+@media all and (max-width: 425px) and (min-width: 376px) {
+}
+
+@media all and (max-width: 375px) and (min-width: 321px) {
+}
+
+@media all and (max-width: 320px) {
+}
