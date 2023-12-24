@@ -131,3 +131,48 @@
     font-weight: lighter;
     letter-spacing: 0.5px;
 }
+
+
+@media all and (max-width: 1120px) {
+    .formGroup > input {
+        width: 400px;
+    }
+}
+
+@media all and (max-width: 788px) {
+    .formGroup > input {
+        width: 70vw;
+    }
+
+    #sixthDivContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    #sixthDivContainerItemOne {
+        order: 2;
+    }
+
+    #sixthDivContainerItemTwo {
+        align-items: center;
+        border-left: none;
+    }
+
+    #sixthDivContainerItemTwoContent > ul > li {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #sixthDivContainerItemTwoContent > ul > li > div > h5 {
+        font-size: 18px;
+        color: #c2c2c2;
+    }
+
+    #sixthDivContainerItemTwoContent > ul > li > div > h6 {
+        font-size: 15px;
+    }
+}
