@@ -1,0 +1,133 @@
+#sixthDivMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: #212529;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#sixthDivContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+#sixthDivContainerItemOne {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background: #212529;
+    padding: 20px;
+}
+
+#sixthDivContainerItemOne > h1 {
+    font-size: 25px;
+    color: white;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formGroup > input {
+    width: 600px;
+    height: 40px;
+    background: #212529;
+    border: 1px solid #32393f;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#message {
+    height: 100px;
+}
+
+.formGroup > input::placeholder {
+    padding: 10px;
+}
+
+.formGroup > button {
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #32393f;
+    padding: 10px 25px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formGroup > button:hover {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.formGroup > button:active {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#sixthDivContainerItemTwo {
+    background: #212529;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+    border-left: 1px solid #2f2f2f;
+}
+
+#sixthDivContainerItemTwoDescription > h6 {
+    margin-left: 20px;
+}
+
+#sixthDivContainerItemTwoDescription > h1 {
+    margin-top: -8px;
+}
+
+#sixthDivContainerItemTwoContent {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#sixthDivContainerItemTwoContent > ul {
+    list-style: none;
+}
+
+#sixthDivContainerItemTwoContent > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#sixthDivContainerItemTwoContent > ul > li > svg {
+    background: white;
+    border-radius: 30px;
+    padding: 20px 20px;
+}
+
+#sixthDivContainerItemTwoContent > ul > li > div > h5 {
+    font-size: 15px;
+    color: #c2c2c2;
+}
+
+#sixthDivContainerItemTwoContent > ul > li > div > h6 {
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
