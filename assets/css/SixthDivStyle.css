@@ -29,7 +29,7 @@
     padding: 20px;
 }
 
-#sixthDivContainerItemOne > h1 {
+#sixthDivContainerItemOne > dfn > h1 {
     font-size: 25px;
     color: white;
 }

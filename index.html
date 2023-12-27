@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">-->
+    <link rel="icon" type="image/png" href="assets/images/titleBarLogo.png"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
     <link rel="stylesheet" href="assets/css/HeaderStyle.css">
     <link rel="stylesheet" href="assets/css/BannerStyle.css">
@@ -26,10 +27,10 @@
     <nav id="navList">
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Certificates</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#aboutMe">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contactMe">Contact</a></li>
         </ul>
     </nav>
 
@@ -61,10 +62,10 @@
     <nav id="navList1">
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Certificates</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#aboutMe">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contactMe">Contact</a></li>
         </ul>
     </nav>
 </div>
@@ -136,7 +137,6 @@
 
     <!--first div-->
     <div id="firDivMainContainer">
-
         <div id="firstDivDescriptionBox">
             <h6>Explain what I do</h6>
             <h1>What I Do</h1>
@@ -202,7 +202,11 @@
             </div>
 
             <div id="secDivContainerIcon2">
-                <h6 id="txtTopicDetails">LET ME INTRODUCE MYSELF</h6>
+
+                <h6 id="txtTopicDetails"><dfn id="aboutMe">
+                    LET ME INTRODUCE MYSELF
+                </dfn></h6>
+
                 <h3 id="txtAboutMe">About Me</h3>
                 <h4 id="txtWorkEx">Work and experience</h4>
                 <p id="txtWorkExDescription">
@@ -287,7 +291,7 @@
     <!--third div-->
     <div id="thirdDivMainContainer">
         <div id="thirdDivDescriptionContainer">
-            <h6>Explain My Projects</h6>
+            <dfn id="projects"><h6>Explain My Projects</h6></dfn>
             <h1>Projects</h1>
             <p>
                 Lorem ipsum dolor sit amet, laborum molestiae necessitatibus perspiciatis provident qui quos rerum
@@ -491,7 +495,7 @@
     <!--fifth div-->
     <div id="fifthDivMainContainer">
         <div id="fifthDivDescriptionContainer">
-            <h6>Verified Achievement Proof</h6>
+            <dfn id="certificates"><h6>Verified Achievement Proof</h6></dfn>
             <h1>My Certificates</h1>
             <p>
                 Lorem ipsum dolor sit amet,consectetur adipisicing elit.Lorem ipsum dolor sit amet,consectetur
@@ -521,7 +525,7 @@
     <div id="sixthDivMainContainer">
         <div id="sixthDivContainer">
             <div id="sixthDivContainerItemOne">
-                <h1>Contact Me</h1>
+                <dfn id="contactMe"><h1>Contact Me</h1></dfn>
                 <div class="formGroup">
                     <label for="email"></label>
                     <input id="email" type="text" placeholder="Email">
@@ -645,7 +649,7 @@
         document.getElementById('certificateImgJava2').style.backgroundSize = "cover";
     }
 
-    window.onload = function() {
+    window.onload = function () {
         setCertificateToBackground();
     };
 </script>
