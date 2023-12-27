@@ -12,7 +12,7 @@
     background: transparent;
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 1;
 }
 
 .headerContainer > nav > ul > li {
