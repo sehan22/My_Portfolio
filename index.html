@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/NavBarStyle.css">
     <link rel="stylesheet" href="assets/css/ScrollBarStyle.css">
     <link rel="stylesheet" href="assets/css/LoaderStyle.css">
+    <link rel="stylesheet" href="assets/css/CertificateViewerStyle.css">
     <title>Sehan Ranaweera | Software Developer</title>
 
     <style>
@@ -526,17 +527,18 @@
             <div class="fifthDivContainerItem" id="certificateImgJava1">
                 <div class="fifthDivContainerItemContent">
                     <p class="certificateTopic">Java (Basic) - Hackerrank</p>
-                    <button class="btnCertificatePreview" type="button">Preview</button>
+                    <button class="btnCertificatePreview" id="certificateViewJava1" type="button">Preview</button>
                 </div>
             </div>
 
             <div class="fifthDivContainerItem" id="certificateImgJava2">
                 <div class="fifthDivContainerItemContent">
                     <p class="certificateTopic">Introduction to Java - SoloLearn </p>
-                    <button class="btnCertificatePreview" type="button">Preview</button>
+                    <button class="btnCertificatePreview" id="certificateViewJava2" type="button">Preview</button>
                 </div>
             </div>
         </div>
+
     </div>
 
     <!--sixth div-->
@@ -627,6 +629,19 @@
         </div>
     </div>
 
+    <!--Certificates Viewer-->
+    <div class="certificateViewer">
+        <div class="certificateViewerContent">
+            <img class="certificate" src="" alt="">
+            <svg class="certificateViewerClose" xmlns="http://www.w3.org/2000/svg" height="26" width="20"
+                 viewBox="0 0 384 512">
+                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                <path fill="#000000"
+                      d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+            </svg>
+        </div>
+    </div>
+
     <!--Loader-->
     <div class="loaderContainer">
         <div class="loaderContent">
@@ -687,9 +702,7 @@
             }
         });
     });
-</script>
 
-<script>
     /*Load Certificate Images*/
     function setCertificateToBackground() {
         document.getElementById('certificateImgJava1').style.background = `url('../assets/images/fifthdiv/javacertificate.png')`;
@@ -761,28 +774,41 @@
     }
 
     // Add click event listeners to each button
-    document.getElementById('btnHotelProject').addEventListener('click', function() {
+    document.getElementById('btnHotelProject').addEventListener('click', function () {
         openLinkInNewTab('https://github.com/sehan22');
     });
 
-    document.getElementById('btnCarRentalProject').addEventListener('click', function() {
+    document.getElementById('btnCarRentalProject').addEventListener('click', function () {
         openLinkInNewTab('https://github.com/sehan22/Easy_Car_rental_project_With_Spring.git');
     });
 
-    document.getElementById('btnD24HostelProject').addEventListener('click', function() {
+    document.getElementById('btnD24HostelProject').addEventListener('click', function () {
         openLinkInNewTab('https://github.com/sehan22/D24-Hostel-Management-Hibernate-Project.git');
     });
 
-    document.getElementById('btnMyPortfolioProject').addEventListener('click', function() {
+    document.getElementById('btnMyPortfolioProject').addEventListener('click', function () {
         openLinkInNewTab('https://sehan22.github.io/My-Portofolio/');
     });
 
-    document.getElementById('btnEducationCenterProject').addEventListener('click', function() {
+    document.getElementById('btnEducationCenterProject').addEventListener('click', function () {
         openLinkInNewTab('https://github.com/sehan22/FindLearn-Education-center-Final-Project.git');
     });
 
-    document.getElementById('btnChatApplication').addEventListener('click', function() {
+    document.getElementById('btnChatApplication').addEventListener('click', function () {
         openLinkInNewTab('https://github.com/sehan22/Socket-Programming-Chat-Application-Project.git');
+    });
+</script>
+
+<script>
+    /*In progress*/
+    /*certificate viewer*/
+    document.querySelector('.btnCertificatePreview').addEventListener('click', function () {
+        document.querySelector('.certificateViewer').style.display = 'flex';
+        document.querySelector('.certificate').src = "assets/images/fifthdiv/javacertificate.png";
+    });
+
+    document.querySelector('.certificateViewerClose').addEventListener('click', function () {
+        document.querySelector('.certificateViewer').style.display = 'none';
     });
 </script>
 </body>
