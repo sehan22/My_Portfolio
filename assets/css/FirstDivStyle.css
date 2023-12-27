@@ -22,12 +22,13 @@
 }
 
 #firDivContainer > div {
-    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.25);
-    border-bottom: 2px solid transparent;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
+    border-bottom: 3px solid transparent;
 }
 
 #firDivContainer > div:hover {
-    border-bottom: 2px solid #212529;
+    border-bottom: 3px solid #212529;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
 }
 
 .gridItem {
