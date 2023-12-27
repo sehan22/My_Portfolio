@@ -35,8 +35,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 75vw;
-    gap: 20px 20px;
+    width: 1000px;
+    gap: 30px 30px;
     padding: 20px 20px;
 }
 
@@ -90,6 +90,12 @@
     transition: 0.3s;
     cursor: pointer;
     box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media all and (max-width: 1060px) {
+    #thirdDivContainer {
+        width: 90vw;
+    }
 }
 
 @media all and (max-width: 425px) and (min-width: 376px) {
