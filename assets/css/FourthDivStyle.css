@@ -65,7 +65,7 @@
 .fourthDivContainerItemContent > img {
     border-radius: 25px;
     transition: 1s;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px 0px;
+    /*box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px 0px;*/
 }
 
 .fourthDivContainerItemContent > img:hover {
