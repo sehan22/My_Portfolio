@@ -4,14 +4,14 @@
 
 .toggle {
     position: relative;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
     transition-duration: .5s;
 }
 
@@ -55,4 +55,60 @@
 #checkbox:checked + .toggle {
     transition-duration: .5s;
     transform: rotate(180deg);
+}
+
+@media all and (max-width: 768px) {
+    #navList {
+        display: none;
+    }
+
+    .headerContainer {
+        justify-content: space-between;
+
+    }
+
+    #imgIcon {
+        margin-left: 20px;
+    }
+
+    .toggle {
+        margin-right: 20px;
+    }
+}
+
+#checkbox:checked ~ #navList1 {
+    display: block;
+}
+
+/* Additional styles for navigation */
+#navList1 {
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 100px;
+    display: none;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+    background: transparent;
+}
+
+#navList1 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: -20px;
+}
+
+#navList1 ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#navList1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
