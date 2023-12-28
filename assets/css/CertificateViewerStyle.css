@@ -14,11 +14,14 @@
 
 .certificateViewerContent {
     display: flex;
+    justify-content: center;
     gap: 20px;
 }
 
 .certificateViewerContent img {
     border-radius: 10px;
+    background: #212529;
+    width: 50vw;
 }
 
 .certificateViewerContent svg {

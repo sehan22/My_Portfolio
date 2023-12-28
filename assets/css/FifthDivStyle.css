@@ -43,13 +43,22 @@
 }
 
 .fifthDivContainerItem {
-    background-size: cover;
     object-fit: scale-down;
     width: 350px;
     height: 262px;
     border-radius: 10px;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
     transition: 1s;
+}
+
+#certificateImgJava1 {
+    background: url("../images/fifthdiv/javacertificate.png");
+    background-size: cover;
+}
+
+#certificateImgJava2 {
+    background: url("../images/fifthdiv/introjavacertificate.png");
+    background-size: cover;
 }
 
 .fifthDivContainerItem:hover {

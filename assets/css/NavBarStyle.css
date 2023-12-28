@@ -95,7 +95,7 @@
     border-radius: 5px;
     backdrop-filter: blur(10px);
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-    background: transparent;
+    background: rgb(0, 0, 0, 0.5);
 }
 
 #navList1 ul {
